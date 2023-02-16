@@ -1,0 +1,562 @@
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+}
+body{
+    background-color: #F2F2F2;
+}
+.sum {
+    margin-top: 50px;
+    grid-column: 2 / 1;
+}
+.container{
+    margin-top: 50px;
+    grid-column: 2 /3;
+}
+
+.recipe{
+    grid-column: 1/2;
+}
+
+.flex{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    column-gap: 110px;
+}
+/* FIRST COMPONENT */
+
+.mes1{
+    margin-top: 10px;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    display: flex;
+    width: 800px;
+    gap: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    height: 220px;
+    padding-top: 20px;
+    color: #828282;
+}
+.mes1 .row div:last-child{
+    color: #4F4F4F;
+    font-weight: 600;
+    font-size: 12px;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.cropped {
+    width: 150px;
+    height: 180px;
+    border-radius: 15px ;
+    overflow: hidden;
+    }
+.cropped img {
+        height: 300px;
+        margin: -10px 0px 0px -140px;
+        border-radius: 15px ;
+    }
+
+
+.row div:first-child p:first-child{
+    font-weight: bold;
+    color: #4F4F4F;
+}
+.row div:first-child p:last-child{
+    font-size: 12px;
+}
+.row2 div:first-child{
+    font-size: 12px;
+}
+.row2 div:last-child{
+    font-size: 12px;
+}
+#con{
+    display: flex;
+    gap: 10px;
+}
+#con object{
+    margin-top: 10px;
+}
+
+.progress{
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    width: 230px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.progress p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #4F4F4F;
+}
+
+#bar {
+    color: #4F4F4F;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 15px 15px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    margin-left: 10px;
+}
+.w3-light-grey{
+    margin-top: 5px;
+    height: 7px;
+    border-radius: 20px;
+}
+.w3-blue{
+    height: 7px;
+    border-radius: 20px;
+}
+
+/* BLOG */
+.blog {
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    border-radius: 10px;
+}
+.cropped2 {
+    width: -350px;
+    height: 250px;
+    border-radius: 15px ;
+    overflow: hidden;
+}
+.cropped2 img{
+    height: 300px;
+    width: auto;
+        margin: -10px 0px 0px -10px;
+        border-radius: 15px ;
+
+}
+.binside{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-size: 19px;
+}
+.binside p{
+    width: 150px;
+    font-family: 'Montserrat';
+}
+
+.article{
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #828282;
+    margin-left: 10px;
+}
+.article div:first-child{
+    margin-top: 20px;
+}
+.article div:last-child{
+    margin-top: 10px;
+}
+/* Hobbies */
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    border-radius: 15px;
+
+    width: 250px;
+    margin-top: 20px;
+}
+.hobbies div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+#hob{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+#height p{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    margin: 5px;
+
+}
+#height p:first-child{
+    font-weight: 600;
+}
+.cropped3 {
+    width: 450px;
+    height: 100px;
+    border-radius: 15px ;
+    overflow: hidden;
+}
+.cropped3 img{
+    height: 140px;
+    width: auto;
+    margin: -70px 0px 0px -10px;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+.cropped4 {
+    width: 450px;
+    height: 100px;
+    border-radius: 15px ;
+    overflow: hidden;
+}
+.cropped4 img{
+    height: 300px;
+    width: auto;
+    margin: -20px 0px 0px -10px;
+    border-radius: 15px;
+}
+.cropped5 {
+    width: 450px;
+    height: 100px;
+    border-radius: 15px ;
+    overflow: hidden;
+}
+.cropped5 img{
+    height: 300px;
+    width: auto;
+    margin: -1px 0px -10px -10px;
+    border-radius: 15px;
+}
+
+/* ADIDAS */
+.adidas{
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    border-radius: 15px;
+
+    height: 280px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.adidas img{
+    height: 100px;
+    width: auto;
+}
+#Experiences{
+    font-family: 'Montserrat';
+    color: #4F4F4F;
+    margin-left: 20px;
+}
+.adik{
+    display: flex;
+}
+#info p{
+    font-family: 'Montserrat';
+}
+#info p:first-child{
+    color: #828282;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+#info p:nth-child(2){
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#info p:last-child{
+    color: #828282;
+    font-size: 10px;
+    width: 350px;
+}
+
+/* Projects */
+.project {
+    width: 800px;
+    height: 80px;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    color: #828282;
+    margin-top: 20px;
+}
+#p3{
+    font-family: 'Montserrat';
+    font-size: 12px;  
+    font-weight: 500; 
+}
+.stack{
+    width: 250px;
+    font-family: 'Montserrat';
+    font-size: 12px;   
+    display: flex;
+    justify-content: space-between;
+}
+.stack div{
+    border: 1px solid #828282;
+    border-radius: 10px;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+}
+.stack div:last-child{
+    background-color: #2F80ED;
+    color: white;
+    width: 100px;
+}
+.stack div:hover{
+    background-color: #4F4F4F;
+    color: white;
+}
+
+/* PROJECT */
+
+.recipe{
+    width: 245px;
+    height: 420px;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+ #img img{
+    height: 165px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#hash{
+    color: #4F4F4F;
+    font-size: 10px;
+    margin-left: 10px;
+}
+#vlog{
+    font-family: 'Montserrat';
+}
+#vlog p:first-child{
+    color: #333333;
+    font-weight: 600;
+    margin-left: 10px
+}
+#vlog p:last-child{
+    color: #828282;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.demo{
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    width: 190px;
+    padding-bottom: 5px;
+}
+.demo div{
+    border: 1px solid  #2F80ED;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    
+}
+
+.demo div p {
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Montserrat';
+}
+.demo div p:last-child{
+    color: #2F80ED;
+}
+.demo div:first-child p:first-child{
+    color: white;
+}
+.demo div:first-child{
+    background-color: #2F80ED;
+}
+
+.pages{
+    display: flex;
+    width: 245px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 550px;
+    padding-bottom: 10px;
+}
+.pages img{
+    height: 10px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.pages div{
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 26px;
+    height: 26px;
+    font-family: 'Montserrat';
+    color: #4F4F4F;
+}
+.pages div:nth-child(3){
+    background: #2F80ED;
+    color: white;
+}
+.pages div p {
+    text-align: center;
+    margin:0;
+    margin-top: 5px;
+}
+
+
+.recipe2{
+    width: 245px;
+    height: 420px;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+ #img2 img{
+    height: 165px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#hash2{
+    color: #4F4F4F;
+    font-size: 10px;
+    margin-left: 10px;
+}
+#vlog2{
+    font-family: 'Montserrat';
+}
+#vlog2 p:first-child{
+    color: #333333;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#vlog2 p:last-child{
+    color: #828282;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.demo2{
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    width: 190px;
+    padding-bottom: 5px;
+}
+.demo2 div{
+    border: 1px solid  #2F80ED;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    
+}
+
+.demo2 div p {
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Montserrat';
+}
+.demo2 div p:last-child{
+    color: #2F80ED;
+}
+.demo2 div:first-child p:first-child{
+    color: white;
+}
+.demo2 div:first-child{
+    background-color: #2F80ED;
+}
+
+.recipe3{
+    width: 245px;
+    height: 420px;
+    box-shadow: 0px 15px 10px -15px #111;
+    background-color: white;    
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+ #img3 img{
+    height: 165px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px
+}
+#hash3{
+    color: #4F4F4F;
+    font-size: 10px;
+    margin-left: 10px;
+}
+#vlog3{
+    font-family: 'Montserrat';
+}
+#vlog3 p:first-child{
+    color: #333333;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#vlog3 p:last-child{
+    color: #828282;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.demo3{
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    width: 190px;
+    padding-bottom: 5px;
+}
+.demo3 div{
+    border: 1px solid  #2F80ED;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    
+}
+
+.demo3 div p {
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Montserrat';
+}
+.demo3 div p:last-child{
+    color: #2F80ED;
+}
+.demo3 div:first-child p:first-child{
+    color: white;
+}
+.demo3 div:first-child{
+    background-color: #2F80ED;
+}
+
+
