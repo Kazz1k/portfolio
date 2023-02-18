@@ -31,7 +31,7 @@ body{
 
 .mes1{
     margin-top: 10px;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     display: flex;
     width: 800px;
@@ -91,7 +91,7 @@ body{
 }
 
 .progress{
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     width: 230px;
     height: 250px;
@@ -128,9 +128,15 @@ body{
 .blog {
     height: 400px;
     width: 500px;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     border-radius: 10px;
+}
+#fly{
+    margin-left: 10px; 
+    padding-top: 5px;
+    font-size: 10px; 
+    color: #E0E0E0;
 }
 .cropped2 {
     width: -350px;
@@ -174,7 +180,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     border-radius: 15px;
 
@@ -242,7 +248,7 @@ body{
 
 /* ADIDAS */
 .adidas{
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     border-radius: 15px;
 
@@ -288,7 +294,7 @@ body{
 .project {
     width: 800px;
     height: 80px;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -324,6 +330,7 @@ body{
 .stack div:hover{
     background-color: #4F4F4F;
     color: white;
+    cursor: pointer;
 }
 
 /* PROJECT */
@@ -331,7 +338,7 @@ body{
 .recipe{
     width: 245px;
     height: 420px;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -370,23 +377,26 @@ body{
     width: 190px;
     padding-bottom: 5px;
 }
+
 .demo div{
     border: 1px solid  #2F80ED;
     border-radius: 10px;
-    height: 40px;
+    height: 30px;
     width: 70px;
     text-align: center;
-    
+    cursor: pointer;
 }
 
+
 .demo div p {
-    margin-top: 10px;
+    margin-top: 6px;
     font-size: 10px;
     font-family: 'Montserrat';
 }
-.demo div p:last-child{
+.demo div:last-child{
     color: #2F80ED;
 }
+
 .demo div:first-child p:first-child{
     color: white;
 }
@@ -397,9 +407,9 @@ body{
 .pages{
     display: flex;
     width: 245px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 20px;
-    margin-left: 550px;
+    margin-left: 560px;
     padding-bottom: 10px;
 }
 .pages img{
@@ -415,6 +425,8 @@ body{
     height: 26px;
     font-family: 'Montserrat';
     color: #4F4F4F;
+    cursor: pointer;
+
 }
 .pages div:nth-child(3){
     background: #2F80ED;
@@ -425,12 +437,14 @@ body{
     margin:0;
     margin-top: 5px;
 }
-
+.pages div:hover{
+    font-weight: bolder;
+}
 
 .recipe2{
     width: 245px;
     height: 420px;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;
     border-radius: 15px;
     display: flex;
@@ -472,18 +486,18 @@ body{
 .demo2 div{
     border: 1px solid  #2F80ED;
     border-radius: 10px;
-    height: 40px;
+    height: 30px;
     width: 70px;
     text-align: center;
-    
+    cursor: pointer;
 }
 
 .demo2 div p {
-    margin-top: 10px;
+    margin-top: 6px;
     font-size: 10px;
     font-family: 'Montserrat';
 }
-.demo2 div p:last-child{
+.demo2 div:last-child{
     color: #2F80ED;
 }
 .demo2 div:first-child p:first-child{
@@ -496,7 +510,7 @@ body{
 .recipe3{
     width: 245px;
     height: 420px;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -20px #111;
     background-color: white;    
     border-radius: 15px;
     display: flex;
@@ -534,22 +548,23 @@ body{
     justify-content: space-between;
     width: 190px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .demo3 div{
     border: 1px solid  #2F80ED;
     border-radius: 10px;
-    height: 40px;
+    height: 30px;
     width: 70px;
     text-align: center;
     
 }
 
 .demo3 div p {
-    margin-top: 10px;
+    margin-top: 6px;
     font-size: 10px;
     font-family: 'Montserrat';
 }
-.demo3 div p:last-child{
+.demo3 div:last-child{
     color: #2F80ED;
 }
 .demo3 div:first-child p:first-child{
@@ -559,4 +574,41 @@ body{
     background-color: #2F80ED;
 }
 
-
+.demo div:hover{
+    background-color: #4F4F4F;
+    border: #4F4F4F;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+.demo2 div:hover{
+    background-color: #4F4F4F;
+    border: #4F4F4F;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+.demo3 div:hover{
+    background-color: #4F4F4F;
+    border: #4F4F4F;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+footer {
+    margin-left: 260px;
+    text-align: center;
+    color:  #A9A9A9;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer a{
+    color: #A9A9A9;
+}
+footer a:hover{
+    background-color: #404040;
+}
+footer a:visited{
+    text-decoration: none;
+}
